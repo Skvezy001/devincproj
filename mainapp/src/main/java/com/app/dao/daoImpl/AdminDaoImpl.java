@@ -1,10 +1,10 @@
 package com.app.dao.daoImpl;
 
 import com.app.dao.AdminDao;
-import com.app.entities.modelExt.Statistic;
-import com.app.entities.modelExt.Test;
-import com.app.entities.modelExt.Topic;
-import com.app.entities.modelExt.User;
+import com.app.entity.modelExt.Statistic;
+import com.app.entity.modelExt.Test;
+import com.app.entity.modelExt.Topic;
+import com.app.entity.modelExt.User;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

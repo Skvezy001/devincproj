@@ -1,10 +1,13 @@
-package com.app.entities.modelExt;
+package com.app.entity.modelExt;
 
-import com.app.entities.Model;
+import com.app.entity.Model;
 
 import javax.persistence.*;
 import java.util.List;
 
+/**
+ * Some changes
+ */
 @Entity
 @Table(name = "test")
 public class Test extends Model {
