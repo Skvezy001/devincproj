@@ -5,6 +5,9 @@ import com.app.entities.Model;
 import javax.persistence.*;
 import java.util.List;
 
+/**
+ * Some changes
+ */
 @Entity
 @Table(name = "test")
 public class Test extends Model {
