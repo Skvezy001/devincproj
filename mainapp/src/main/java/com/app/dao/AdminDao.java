@@ -1,9 +1,9 @@
 package com.app.dao;
 
-import com.app.entities.modelExt.Statistic;
-import com.app.entities.modelExt.Test;
-import com.app.entities.modelExt.Topic;
-import com.app.entities.modelExt.User;
+import com.app.entity.modelExt.Statistic;
+import com.app.entity.modelExt.Test;
+import com.app.entity.modelExt.Topic;
+import com.app.entity.modelExt.User;
 
 import java.util.List;
 

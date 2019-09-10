@@ -37,7 +37,7 @@ public class HibernateConfig {
         LocalSessionFactoryBean sessionFactory
                 = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan("app.entities");
+        sessionFactory.setPackagesToScan("app.entity");
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }

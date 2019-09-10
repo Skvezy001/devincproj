@@ -1,6 +1,6 @@
-package com.app.entities.modelExt;
+package com.app.entity.modelExt;
 
-import com.app.entities.Model;
+import com.app.entity.Model;
 
 import javax.persistence.*;
 
