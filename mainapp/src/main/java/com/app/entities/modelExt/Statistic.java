@@ -15,7 +15,7 @@ public class Statistic extends Model {
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "userid")
     private User user;
-
+    @OneToMany(mappedBy = "statistic", fetch=FetchType.EAGER)
     private List<Question> questionList;
 
     public Statistic() {

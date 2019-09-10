@@ -16,9 +16,9 @@ public class Question extends Model {
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "literatureid")
     private Literature literature;
-    @OneToMany(mappedBy = "statistic", fetch=FetchType.EAGER)
+    @OneToMany(mappedBy = "question", fetch=FetchType.EAGER)
     private List<Statistic> statisticList;
-    @OneToMany(mappedBy = "statistic", fetch=FetchType.EAGER)
+    @OneToMany(mappedBy = "question", fetch=FetchType.EAGER)
     private List<Test> testList;
 
     public Question() {
